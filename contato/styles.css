@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover{
+    color: red;
+}
+
+#logo{
+    width: 150px;
+    height: auto;
+}
+
+#banner{
+    background-image: url(https://theexchangehall.com/wp-content/uploads/2022/02/batman-scaled-UXWU8H.tmp_.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.contat {
+    display: flex;
+}
+
+form{
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 15px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+label {
+    display: block;
+}
+
+.form1 {
+    display: flex;
+    column-gap: 10px;
+}
+
+.name {
+    width: 150px;
+    color: aliceblue;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.email {
+    width: 235px;
+    color: aliceblue;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.number1 {
+    margin-top: 10px;
+}
+
+.number {
+    width: 200px;
+    color: aliceblue;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.textarea {
+    margin-top: 10px;
+}
+
+.message{
+    width: 400px;
+    color: aliceblue;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+#social{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+
+#social span{
+    display: block;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    row-gap: 10px;
+}
+
+.images:hover{
+    cursor: pointer;
+}
+
+#social img{
+    margin-top: 20px;
+    height: 50px;
+}
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span{
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
